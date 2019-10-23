@@ -40,6 +40,8 @@ park_palettes <- list(
 #'   \code{GrandTeton}, \code{BryceCanyon}, \code{MtRainier}, \code{Badlands},
 #'   \code{Redwoods}, \code{Everglades}, \code{Voyageurs}
 #'   @importFrom graphics rgb rect par image text
+#' @param type Either "continuous" or "discrete". Use continuous if you want
+#'   to automatically interpolate between colours.
 #' @return A vector of colours.
 #' @export
 #' @keywords colors
@@ -47,8 +49,8 @@ park_palettes <- list(
 #' park_palette("SmokyMountains")
 #' park_palette("Yellowstone", 3)
 
-park_palette <- function(name, n) {
-
+park_palette <- function(name, n,type = c("discrete", "continuous")) {
+  type <- match.arg(type)
 
   pal <- park_palettes[[name]]
   if (is.null(pal))
@@ -58,12 +60,14 @@ park_palette <- function(name, n) {
     n <- length(pal)
   }
 
-  if (n > length(pal)) {
+  if (type == "discrete" && n > length(pal)) {
     stop("Number of requested colors greater than what palette can offer")
   }
 
-  out <- pal[1:n]
-
+  out <- switch(type,
+                continuous = grDevices::colorRampPalette(pal)(n),
+                discrete = pal[1:n]
+  )
   structure(out, class = "palette", name = name)
 }
 
@@ -79,6 +83,6 @@ print.palette <- function(x, ...) {
         ylab = "", xaxt = "n", yaxt = "n", bty = "n")
 
   rect(0, 0.9, n + 1, 1.1, col = rgb(1, 1, 1, 0.8), border = NA)
-  text((n + 1) / 2, 1, labels = attr(x, "name"), cex = 1, family = "Lato", col = "#32373D")
+  text((n + 1) / 2, 1, labels = attr(x, "name"), cex = 1, family = "serif", col = "#32373D")
 }
 
