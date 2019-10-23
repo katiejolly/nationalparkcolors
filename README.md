@@ -9,8 +9,8 @@ mix of the WPA originals and more modern remakes.
 
 ## Installation
 
-You can install the released version of nationalparkcolors from
-[CRAN](https://CRAN.R-project.org) with:
+You can install the released version of nationalparkcolors from GitHub
+with:
 
 ``` r
 # install.packages("devtools")

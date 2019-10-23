@@ -18,7 +18,7 @@ The goal of nationalparkcolors is to provide an interface to the beautiful color
 
 ## Installation
 
-You can install the released version of nationalparkcolors from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of nationalparkcolors from GitHub with:
 
 ```{r eval = FALSE}
 # install.packages("devtools")
