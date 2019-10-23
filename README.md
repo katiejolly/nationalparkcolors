@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# nationalparkcolors
+# nationalparkcolors <img src="./Hex/nationalparkcolors_hex.png" align="right" height = "120"/>
 
 The goal of nationalparkcolors is to provide an interface to the
 beautiful colors in National Park posters and images. The posters are a
@@ -30,7 +30,8 @@ names(park_palettes)
 #>  [1] "SmokyMountains" "RockyMountains" "Yellowstone"    "Arches"        
 #>  [5] "ArcticGates"    "MtMckinley"     "GeneralGrant"   "Hawaii"        
 #>  [9] "CraterLake"     "Saguaro"        "GrandTeton"     "BryceCanyon"   
-#> [13] "MtRainier"      "Badlands"       "Redwoods"       "Everglades"
+#> [13] "MtRainier"      "Badlands"       "Redwoods"       "Everglades"    
+#> [17] "Voyageurs"      "BlueRidgePkwy"
 ```
 
 You can create a palette in just one command (+ get an image of the
@@ -40,8 +41,7 @@ palette).
 pal <- park_palette("MtRainier")
 ```
 
-If you want a specific number of colors, you can also do
-that.
+If you want a specific number of colors, you can also do that.
 
 ``` r
 pal <- park_palette("MtRainier", 4)
@@ -49,4 +49,4 @@ pal <- park_palette("MtRainier", 4)
 
 ## Palettes
 
-<img src="man/figures/README-unnamed-chunk-6-1.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-2.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-3.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-4.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-5.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-6.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-7.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-8.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-9.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-10.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-11.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-12.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-13.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-14.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-15.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-16.png" width="300px" />
+<img src="man/figures/README-unnamed-chunk-6-1.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-2.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-3.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-4.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-5.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-6.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-7.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-8.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-9.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-10.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-11.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-12.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-13.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-14.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-15.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-16.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-17.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-18.png" width="300px" />

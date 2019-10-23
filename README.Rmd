@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
-# nationalparkcolors
+# nationalparkcolors <img src="./Hex/nationalparkcolors_hex.png" align="right" height = "120"/>
 
 The goal of nationalparkcolors is to provide an interface to the beautiful colors in National Park posters and images. The posters are a mix of the WPA originals and more modern remakes.
 
