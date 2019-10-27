@@ -34,7 +34,7 @@ knitr::include_graphics("https://i.pinimg.com/736x/60/d4/c1/60d4c16a3102e33d7c73
 
 ## Example
 
-There are 18 total palettes to choose from.
+There are `r length(nationalparkcolors::park_palettes)` total palettes to choose from.
 
 ```{r}
 library(nationalparkcolors)
@@ -77,3 +77,4 @@ for (pal in pals){
 }
 ```
 
+Along with the nice color palettes, I also hope that people think more about the national park system when using this package. I am not affiliated with the Park Service, but if you'd like to support them you can [donate here](https://www.nps.gov/getinvolved/donate.htm).

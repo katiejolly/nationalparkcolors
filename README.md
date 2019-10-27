@@ -21,7 +21,7 @@ devtools::install_github("katiejolly/nationalparkcolors")
 
 ## Example
 
-There are 18 total palettes to choose from.
+There are 25 total palettes to choose from.
 
 ``` r
 library(nationalparkcolors)
@@ -30,7 +30,10 @@ names(park_palettes)
 #>  [1] "SmokyMountains" "RockyMountains" "Yellowstone"    "Arches"        
 #>  [5] "ArcticGates"    "MtMckinley"     "GeneralGrant"   "Hawaii"        
 #>  [9] "CraterLake"     "Saguaro"        "GrandTeton"     "BryceCanyon"   
-#> [13] "MtRainier"      "Badlands"       "Redwoods"       "Everglades"
+#> [13] "MtRainier"      "Badlands"       "Redwoods"       "Everglades"    
+#> [17] "Voyageurs"      "BlueRidgePkwy"  "Denali"         "GreatBasin"    
+#> [21] "ChannelIslands" "Yosemite"       "Acadia"         "DeathValley"   
+#> [25] "Zion"
 ```
 
 You can create a palette in just one command (+ get an image of the
@@ -49,4 +52,9 @@ pal <- park_palette("MtRainier", 4)
 
 ## Palettes
 
-<img src="man/figures/README-unnamed-chunk-6-1.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-2.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-3.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-4.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-5.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-6.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-7.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-8.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-9.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-10.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-11.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-12.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-13.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-14.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-15.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-16.png" width="300px" />
+<img src="man/figures/README-unnamed-chunk-6-1.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-2.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-3.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-4.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-5.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-6.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-7.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-8.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-9.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-10.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-11.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-12.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-13.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-14.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-15.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-16.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-17.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-18.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-19.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-20.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-21.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-22.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-23.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-24.png" width="300px" /><img src="man/figures/README-unnamed-chunk-6-25.png" width="300px" />
+
+Along with the nice color palettes, I also hope that people think more
+about the national park system when using this package. I am not
+affiliated with the Park Service, but if you’d like to support them you
+can [donate here](https://www.nps.gov/getinvolved/donate.htm).
