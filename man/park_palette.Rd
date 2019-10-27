@@ -4,7 +4,7 @@
 \alias{park_palette}
 \title{A National Park palette generator}
 \usage{
-park_palette(name, n)
+park_palette(name, n, type = c("discrete", "continuous"))
 }
 \arguments{
 \item{name}{Name of desired palette. Choices are:
@@ -19,6 +19,9 @@ park_palette(name, n)
 have 5 to 8 colors. Most color
 schemes are derived from \href{http://poppygall.com/blog/2011/07/25/color-inspiration-national-park-wpa-posters/}{Color Inspiration – National Park WPA Posters}.
 If omitted, uses all colours.}
+
+\item{type}{Either "continuous" or "discrete". Use continuous if you want
+to automatically interpolate between colours.}
 }
 \value{
 A vector of colours.
