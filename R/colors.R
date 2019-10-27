@@ -22,7 +22,9 @@ park_palettes <- list(
   Redwoods = c("#769370", "#BDB2A7", "#F1C646", "#6E687E", "#F17236"),
   Everglades = c("#91D5DE", "#2E8289", "#B4674E", "#EAAE37", "#565F41"),
   Voyageurs = c("#8FC0CE", "#F6F18F", "#FDFCDE", "#238451", "#359F8B"),
-  BlueRidgePkwy = c("#EC8FA3", "#FCBA65", "#FAECCF", "#8D7F99", "#8C9D57", "#163343")
+  BlueRidgePkwy = c("#EC8FA3", "#FCBA65", "#FAECCF", "#8D7F99", "#8C9D57", "#163343"),
+  Denali = c("#73979D", "#DADCD7", "#43200E", "#E16509", "#747669"),
+  GreatBasin = c("#6BBAE5", "#E3EEF4", "#454B68", "#F9F5EA", "#81974C", "#553F31")
 )
 
 #' A National Park palette generator
