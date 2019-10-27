@@ -24,7 +24,12 @@ park_palettes <- list(
   Voyageurs = c("#8FC0CE", "#F6F18F", "#FDFCDE", "#238451", "#359F8B"),
   BlueRidgePkwy = c("#EC8FA3", "#FCBA65", "#FAECCF", "#8D7F99", "#8C9D57", "#163343"),
   Denali = c("#73979D", "#DADCD7", "#43200E", "#E16509", "#747669"),
-  GreatBasin = c("#6BBAE5", "#E3EEF4", "#454B68", "#F9F5EA", "#81974C", "#553F31")
+  GreatBasin = c("#6BBAE5", "#E3EEF4", "#454B68", "#F9F5EA", "#81974C", "#553F31"),
+  ChannelIslands = c("#F5D2E6", "#554C6C", "#EB8D43", "#70646E", "#7397CB", "#CEA347"),
+  Yosemite = c("#9FC2B2", "#DFDED3", "#A49A69", "#3F5B66", "#869144"),
+  Acadia = c("#FED789", "#023743", "#72874E", "#476F84", "#A4BED5", "#453947"),
+  DeathValley = c("#B23539", "#FAB57C", "#F7E790", "#73652D", "#E79498", "#514289"),
+  Zion = c("#469BEC", "#C9FAFF", "#F1E3B6", "#C4878C", "#6D882B")
 )
 
 #' A National Park palette generator
